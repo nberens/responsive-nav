@@ -3,7 +3,8 @@
 */
 jQuery(document).ready(function($){
 	
-	<!--jQuery('#nav').prepend('<div id="menu-icon">Menu</div>');-->
+
+	jQuery('header').append('<div id="menu-icon">&equiv;</div>');
 
 	$('#menu-icon').click(function(){
 		$('nav').slideToggle();
